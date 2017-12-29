@@ -45,3 +45,9 @@ endif
 let g:molokai_original = 1
 
 colorscheme molokai
+
+call plug#begin('C:\vim\plugged')
+Plug 'sukima/xmledit'
+Plug 'tpope/vim-ragtag'
+
+set lines=50 columns=250
